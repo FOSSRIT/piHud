@@ -14,14 +14,10 @@ class Gauge(SVGWidget):
     def get_command(self):
         return self.command
 
-    def render(self, response):
-        gauge_chart = pygal.Gauge(human_readable=True)
+    def render(self, value):
+        gauge_chart = pygal.Gauge(human_readable=True, width=300, height=200)
         gauge_chart.title = self.command.name
         gauge_chart.range = [0, 8000]
-
-        value = 0
-        if isinstance(response.value, float):
-            value = response.value
 
         gauge_chart.add(self.command.name, value)
         chart = QtCore.QByteArray(gauge_chart.render())

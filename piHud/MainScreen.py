@@ -1,5 +1,6 @@
 
 import obd
+import math
 from widgets import *
 from PyQt4 import QtCore, QtGui
 
@@ -17,6 +18,8 @@ class MainScreen(QtGui.QWidget):
         self.timer.start(1000/30, self)
 
         self.makeChart(obd.commands.RPM)
+        self.makeChart(obd.commands.COOLANT_TEMP)
+        self.theta = 0;
 
 
     def initUI(self):
@@ -28,9 +31,12 @@ class MainScreen(QtGui.QWidget):
 
     def timerEvent(self, event):
         """ main event loop """
-        for w in self.draggables:
-            r = self.connection.query(w.get_command())
-            w.render(r)
+        #for w in self.draggables:
+            
+        self.draggables[0].render((math.sin(self.theta) * 4000) + 4000)
+        self.draggables[1].render((math.cos(self.theta) * 4000) + 4000)
+        
+        self.theta += 0.01
 
 
     def dragEnterEvent(self, e):
