@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="chart-ac9faa58-9913-4839-bc3e-103b96849ad8" class="pygal-chart" viewBox="0 0 200 250"><!--Generated with pygal 1.6.1 (lxml) ©Kozea 2011-2014 on 2014-12-02--><!--http://pygal.org--><!--http://github.com/Kozea/pygal--><defs><style type="text/css">#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .title{font-family:"monospace";font-size:16px}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .legends .legend text{font-family:"monospace";font-size:14px}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis text{font-family:"monospace";font-size:10px}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis text.major{font-family:"monospace";font-size:10px}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .series text{font-family:"monospace";font-size:8px}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .tooltip text{font-family:"monospace";font-size:16px}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 text.no_data{font-size:64px}
+#chart-ac9faa58-9913-4839-bc3e-103b96849ad8{background-color:black}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 path,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 line,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 rect,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 circle{-webkit-transition:250ms;-moz-transition:250ms;transition:250ms}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .graph &gt; .background{fill:black}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .plot &gt; .background{fill:transparent}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .graph{fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 text.no_data{fill:#53A0E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .title{fill:#53A0E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .legends .legend text{fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .legends .legend:hover text{fill:#53A0E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis .line{stroke:#53A0E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis .guide.line{stroke:transparent}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis .major.line{stroke:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis text.major{stroke:#53A0E8;fill:#53A0E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis.y .guides:hover .guide.line,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .line-graph .axis.x .guides:hover .guide.line,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .stackedline-graph .axis.x .guides:hover .guide.line,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .xy-graph .axis.x .guides:hover .guide.line{stroke:#53A0E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis .guides:hover text{fill:#53A0E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .reactive{fill-opacity:.8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .reactive.active,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .active .reactive{fill-opacity:.9}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .series{stroke-width:1.0;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:0,0}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .series text{fill:#53A0E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .tooltip rect{fill:transparent;stroke:#53A0E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .tooltip text{fill:#53A0E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .map-element{fill:#53B9E8;stroke:transparent !important;opacity:.9;stroke-width:3;-webkit-transition:250ms;-moz-transition:250ms;-o-transition:250ms;transition:250ms}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .map-element:hover{opacity:1;stroke-width:10}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-0,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-0 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-1,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-1 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-2,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-2 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-3,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-3 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-4,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-4 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-5,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-5 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-6,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-6 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-7,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-7 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-8,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-8 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-9,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-9 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-10,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-10 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-11,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-11 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-12,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-12 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-13,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-13 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-14,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-14 a:visited{stroke:#53B9E8;fill:#53B9E8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-15,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .color-15 a:visited{stroke:#53B9E8;fill:#53B9E8}
+#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 text.no_data{text-anchor:middle}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .guide.line{fill-opacity:0}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .centered{text-anchor:middle}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .title{text-anchor:middle}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .legends .legend text{fill-opacity:1}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis.x text{text-anchor:middle}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis.x:not(.web) text[transform]{text-anchor:start}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis.y text{text-anchor:end}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis.y2 text{text-anchor:start}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis.y .logarithmic text:not(.major),#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis.y2 .logarithmic text:not(.major){font-size:50%}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis .guide.line{stroke-dasharray:4,4}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis .major.guide.line{stroke-dasharray:6,6}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis text.major{stroke-width:0.5px}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .horizontal .axis.y .guide.line,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .horizontal .axis.y2 .guide.line,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .vertical .axis.x .guide.line{opacity:0}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .horizontal .axis.always_show .guide.line,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .vertical .axis.always_show .guide.line{opacity:1 !important}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis.y .guides:hover .guide.line,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis.y2 .guides:hover .guide.line,#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis.x .guides:hover .guide.line{opacity:1}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .axis .guides:hover text{opacity:1}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .nofill{fill:none}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .subtle-fill{fill-opacity:.2}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .dot{stroke-width:1px;fill-opacity:1}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .dot.active{stroke-width:5px}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .series text{stroke:none}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .series text.active{opacity:1}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .tooltip rect{fill-opacity:0.8}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .tooltip text{fill-opacity:1}#chart-ac9faa58-9913-4839-bc3e-103b96849ad8 .tooltip text tspan.label{fill-opacity:.8}</style><script type="text/javascript">window.config = {"inner_radius": 0, "print_values": true, "tooltip_font_size": 16, "y_title": null, "legend_at_bottom_columns": null, "height": 250, "legend_at_bottom": false, "show_legend": false, "show_dots": true, "explicit_size": false, "legend_font_size": 14, "y_labels_major": null, "x_labels_major_count": null, "major_label_font_size": 10, "fill": false, "half_pie": false, "style": {"opacity": ".8", "foreground": "#53B9E8", "plot_background": "transparent", "stroke_style": "round", "foreground_light": "#53A0E8", "transition": "250ms", "foreground_dark": "transparent", "stroke_dasharray": "0,0", "opacity_hover": ".9", "stroke_width": 1.0, "colors": ["#53B9E8", "#53B9E8"], "background": "black", "font_family": "monospace"}, "missing_value_fill_truncation": "x", "zero": 0, "show_minor_x_labels": true, "interpolation_parameters": {}, "x_labels_major": null, "rounded_bars": null, "label_font_size": 10, "show_y_labels": true, "dots_size": 2.5, "show_y_guides": true, "show_minor_y_labels": true, "x_labels": null, "value_font_size": 8, "x_label_rotation": 0, "disable_xml_declaration": false, "strict": false, "css": ["style.css", "graph.css"], "title_font_size": 16, "show_only_major_dots": false, "human_readable": true, "show_x_guides": false, "spacing": 10, "y_label_rotation": 0, "pretty_print": false, "tooltip_border_radius": 0, "interpolate": null, "js": ["http://kozea.github.io/pygal.js/javascripts/svg.jquery.js", "http://kozea.github.io/pygal.js/javascripts/pygal-tooltips.js"], "y_labels": null, "y_labels_major_every": null, "interpolation_precision": 250, "x_title": null, "value_formatter": null, "no_data_font_size": 64, "logarithmic": false, "width": 200, "print_zeroes": false, "no_data_text": "No data", "truncate_legend": null, "x_labels_major_every": null, "title": "COOLANT_TEMP", "legend_box_size": 12, "no_prefix": false, "stroke": true, "include_x_axis": false, "range": [0, 8000], "truncate_label": null, "order_min": null, "mode": null, "y_labels_major_count": null, "x_label_format": "%Y-%m-%d %H:%M:%S.%f", "margin": 20, "stack_from_top": false}</script><script type="text/javascript" xlink:href="http://kozea.github.io/pygal.js/javascripts/svg.jquery.js"/><script type="text/javascript" xlink:href="http://kozea.github.io/pygal.js/javascripts/pygal-tooltips.js"/></defs><title>COOLANT_TEMP</title>
+<g class="graph gauge-graph vertical">
+    <rect class="background" height="250" width="200" x="0" y="0"/>
+    <g class="plot" transform="translate(20, 46)">
+        <rect class="background" height="164" width="160" x="0" y="0"/>
+        <g class="axis y gauge">
+            <circle cx="80.0" cy="82.0" r="4"/>
+        </g>
+        <g class="axis x gauge">
+            <g class="guides">
+                <path class="line" d="M116.538462 146.868634 L118.461538 150.282772 Z"/>
+                <path class="guide line major" d="M80.000000 82.000000 L116.538462 146.868634 Z"/>
+                <text x="114.615384615" y="143.454494999">0</text>
+            </g>
+            <g class="guides">
+                <path class="line" d="M147.514274 110.664461 L151.067656 112.173117 Z"/>
+                <path class="guide line " d="M80.000000 82.000000 L147.514274 110.664461 Z"/>
+                <text x="143.960890712" y="109.155805104">1k</text>
+            </g>
+            <g class="guides">
+                <path class="line" d="M150.586887 62.613458 L154.301987 61.593114 Z"/>
+                <path class="guide line " d="M80.000000 82.000000 L150.586887 62.613458 Z"/>
+                <text x="146.871787974" y="63.6338023764">2k</text>
+            </g>
+            <g class="guides">
+                <path class="line" d="M124.486412 22.574783 L126.827802 19.447140 Z"/>
+                <path class="guide line " d="M80.000000 82.000000 L124.486412 22.574783 Z"/>
+                <text x="122.145022008" y="25.7024264293">3k</text>
+            </g>
+            <g class="guides">
+                <path class="line" d="M80.000000 7.096154 L80.000000 3.153846 Z"/>
+                <path class="guide line " d="M80.000000 82.000000 L80.000000 7.096154 Z"/>
+                <text x="80.0" y="11.0384615385">4k</text>
+            </g>
+            <g class="guides">
+                <path class="line" d="M35.513588 22.574783 L33.172198 19.447140 Z"/>
+                <path class="guide line " d="M80.000000 82.000000 L35.513588 22.574783 Z"/>
+                <text x="37.8549779917" y="25.7024264293">5k</text>
+            </g>
+            <g class="guides">
+                <path class="line" d="M9.413113 62.613458 L5.698013 61.593114 Z"/>
+                <path class="guide line " d="M80.000000 82.000000 L9.413113 62.613458 Z"/>
+                <text x="13.1282120261" y="63.6338023764">6k</text>
+            </g>
+            <g class="guides">
+                <path class="line" d="M12.485726 110.664461 L8.932344 112.173117 Z"/>
+                <path class="guide line " d="M80.000000 82.000000 L12.485726 110.664461 Z"/>
+                <text x="16.0391092877" y="109.155805104">7k</text>
+            </g>
+            <g class="guides">
+                <path class="line" d="M43.461538 146.868634 L41.538462 150.282772 Z"/>
+                <path class="guide line major" d="M80.000000 82.000000 L43.461538 146.868634 Z"/>
+                <text x="45.3846153846" y="143.454494999">8k</text>
+            </g>
+        </g>
+        <g class="series serie-0 color-0">
+            <g class="dots">
+                <polygon class="line reactive tooltip-trigger" points="80.000000 82.000000 51.153846 133.212079 49.230769 136.626218 51.153846 133.212079"/>
+                <desc class="value">8k</desc>
+                <desc class="x top">51.1538461538</desc>
+                <desc class="y top">133.212079166</desc>
+            </g>
+        </g>
+    </g>
+    <g class="titles">
+        <text class="title plot_title" x="100.0" y="26">COOLANT_TEMP</text>
+    </g>
+    <g class="plot overlay" transform="translate(20, 46)">
+        <g class="series serie-0 color-0"/></g>
+    <g class="plot text-overlay" transform="translate(20, 46)">
+        <g class="series serie-0 color-0">
+            <text class="centered" x="51.1538461538" y="135.878745833">8k</text>
+        </g>
+    </g>
+    <g class="plot tooltip-overlay" transform="translate(20, 46)">
+        <g class="tooltip" style="opacity: 0" transform="translate(0 0)">
+            <a>
+                <rect class="tooltip-box" height="0" rx="0" ry="0" width="0"/>
+                <text class="text">
+                    <tspan class="label"/>
+                    <tspan class="value"/>
+                </text>
+            </a>
+        </g>
+    </g>
+</g></svg>
