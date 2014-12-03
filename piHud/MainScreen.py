@@ -32,7 +32,7 @@ class MainScreen(QtGui.QWidget):
     def timerEvent(self, event):
         """ main event loop """
         #for w in self.draggables:
-            
+
         self.draggables[0].render((math.sin(self.theta) * 4000) + 4000)
         self.draggables[1].render((math.cos(self.theta) * 4000) + 4000)
         

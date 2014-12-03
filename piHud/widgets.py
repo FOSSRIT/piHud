@@ -30,5 +30,12 @@ class Gauge(SVGWidget):
         gauge_chart.range = [0, 8000]
 
         gauge_chart.add(self.command.name, value)
-        chart = QtCore.QByteArray(gauge_chart.render())
+
+        svg = gauge_chart.render()
+
+        # PyQt has a rendering issue with the following CSS
+        # delete it by replacing it with empty brackets
+        svg = svg.replace(" .series{stroke-width:1.0;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:0,0}", " .series{}")
+
+        chart = QtCore.QByteArray(svg)
         super(Gauge, self).load(chart)
